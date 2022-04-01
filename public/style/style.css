@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+}
